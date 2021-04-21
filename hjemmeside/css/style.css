@@ -1,0 +1,562 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Montserrat';
+    
+}
+
+.background 
+{
+    background-image: url(../img/blade-bg.png);
+    transition: background-position 0.5s ease;
+
+}
+
+.bg-img 
+{
+    position: fixed;
+    
+}
+
+.bg-img.left
+{
+    left: 0;
+   
+    opacity: 90%;
+
+}
+
+.bg-img.right
+{
+
+    right: 0;
+    opacity: 90%;
+    
+   
+}
+
+/*---------------- Nav bar  ----------*/ 
+
+header
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 150px;
+}
+
+
+.nav
+{
+    display: flex;
+    max-width: 1220px;
+    margin: 0 auto;
+    
+
+}
+
+
+.nav ul
+{
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li
+{
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150px;
+    color: black;
+    
+
+    
+}
+
+.nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.nav ul li a:hover
+{
+    color: #6ea53b;
+}
+
+.nav ul li img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+
+/*---------------- Forside video  ----------*/ 
+
+main 
+{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+main video 
+{
+    width: 100%;
+    
+}
+
+
+
+/*---------------- Kort til forside  ----------*/ 
+
+
+
+.card-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+
+
+}
+
+.card-container a {
+    text-decoration: none;
+}
+
+
+.card 
+{
+  
+    width: 25%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.card:nth-child(2):hover {
+    background-color: #6ea53b;
+}
+
+.card:hover {
+    background-color: #0f6622;
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+
+#read-more
+{
+    color: black;
+    font-weight: 700;
+    padding: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card img
+{
+    width: 100%;
+    display: block;
+}
+
+
+
+.card p
+{
+    padding: 15px 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.brightgreen
+{
+
+    background-color: #81c93d;
+
+}
+
+.green
+{
+    background-color:#6ea53b ;
+}
+
+.darkgreen
+{
+
+    background-color: #4b801a;
+
+}
+
+
+/*---------------- Footer ----------*/ 
+ footer
+ {
+     max-width: 1220px;
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+     margin-top: 120px;
+     margin-bottom: 25px;
+     border-top: black 2px solid;
+     padding-top: 20px;
+     
+ }
+.contact 
+ {
+     color:#367D99;
+ }
+
+ .some-icons img{
+     width: 50px;
+ }
+
+ h4
+ {
+     font-weight: 500;
+     font-style: normal;
+ }
+
+/*---------------- ERROR SIDE ----------*/ 
+
+
+#error-h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+.box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1220px;
+    margin: 0 auto;
+
+
+}
+
+.box img 
+{
+    width: 600px;
+    
+}
+
+.text
+{
+ 
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+}
+
+.text p 
+{
+    padding: 20px 0;
+}
+
+.btn 
+{
+    background-color: rgba(240, 151, 51, 0.77);
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.btn:hover {
+    background-color: rgba(233, 174, 106, 0.77);
+    cursor: pointer;
+}
+
+
+/*----------- Regler side --------*/
+
+#infografik 
+{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.dobbelt-box
+{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+
+.dobbelt-box img 
+{
+    width: 50% ;
+}
+
+.dobbelt-box-text
+{
+    background-color: #ee9d3e;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.dobbelt-box-text h3
+{
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+section h2, section h1
+
+{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 75px;
+    font-weight: 400;
+}
+
+
+section>p
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 160px 20px 160px ;
+}
+
+
+.box-yellow
+{
+    background-color: #f7cd60;
+   
+}
+
+.dobbelt-box:last-child 
+{
+    margin-bottom: 50px ;
+}
+
+.video-container 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+section video
+{
+    width: 47%;
+}
+
+
+/* -------------- kalender ---------*/
+.slider img 
+{
+    width: 100%;
+  
+}
+
+.slider
+{
+    background-color: #F5C934;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+.calendar {
+    position: relative;
+}
+
+.calendar > img {
+    width: 100%;
+    display: block;
+}
+
+
+
+/* Guide overlay */
+.guide-overlay {
+    background-color: rgba(255, 250, 255, 0.85);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.card-guide-container {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    left: calc(50% - 267px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.card-guide {
+    background-color: #fefefe;
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 1em;
+    opacity: 0.5;
+    box-shadow: 1px 1px 5px 0px black;
+
+}
+
+.card-active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+
+.brightblue {
+    background-color: #80baf0;
+}
+
+.blue {
+    background-color: #76acdf;
+}
+
+.darkblue {
+    background-color: #6a9bc9;
+}
+
+.img-container {
+    height: 65%;
+}
+
+.card-guide img {
+    display: block;
+    height: calc(100% - 1em);
+    padding: 0.5em;
+    margin: 0 auto;
+}
+
+.card-guide h2 {
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card-guide p {
+    padding: 0 20px 20px 20px;
+}
+
+.button-container {
+    position: absolute;
+    top: calc(50% + 180px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-container button:first-child {
+    margin-right: 1em;
+}
+
+.button-container button {
+    margin-right: 0.25em;
+    padding: 1em 1.2em;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    outline: none;
+}
+
+
+.exit
+{
+    background-color: rgb(233, 140, 86);
+}
+
+.prev
+{
+    background-color: #f0ce78;
+}
+
+.next
+{
+    background-color: #84b358;
+}
+.button-container button:hover {
+    background-color: #80baf0;
+    cursor: pointer;
+    color: white;
+}
+
+.button-login
+{
+    text-align: center;
+}
+
+.button-login button {
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+
+.btn-login
+{
+  background-color: #81c93d;
+}
+
+.btn-ny
+{
+    background-color: #ee9c3e ;
+}
+
+.btn-style 
+{
+    padding: 5px;
+    font-size: 18px;
+    margin: 10px 5px 0px 5px;
+    border: none;
+    
+}
+
+
+
+@media screen and (max-width:1720px)
+{
+
+.bg-img 
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

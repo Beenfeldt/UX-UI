@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---- css------->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!---- Fonts------->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <!---- Titel------->
+    <title>Parkkollegierne - Din kalender</title>
+
+    <!---- JS------->
+    <script src="JS/script.js" defer></script>
+    <script src="JS/parallax.js" defer></script>
+</head>
+
+
+<header>
+    <!---- Navigation------->
+    <div class="nav">
+        <ul>
+            <li><a href="indflytning.html">Indflytning</a></li>
+            <li><a href="om-kollegiet.html"> Om Kollegiet</a></li>
+            <li><a href="faciliteter.html"> Faciliteter</a></li>
+            <li> <a href="index.html"><img src="img/animeret-logo.gif" alt="logo"></a> </li>
+            <li><a href="regler.html"> Regler og vilkår</a></li>
+            <li><a href="kalender.html"> Kalender</a></li>
+            <li><a href="kontakt.html"> Kontakt</a></li>
+
+        </ul>
+    </div>
+</header>
+
+<body class="background">
+
+    <!---- Onboarding - 3 kort med beskrivelse af kalenderen------->
+
+    <main class="calendar">
+        <img src="img/kalender-2.png" alt="tegning af kalenderog mand">
+        <div class="guide-overlay">
+            <div class="card-guide-container">
+                <div class="card-guide">
+                    <div class="img-container brightblue">
+                        <img src="img/Kalender2.png" alt="Tegning af mand med kalender">
+                    </div>
+                    <h2>Din kalender</h2>
+                    <p>Med vores kalender har du og kollegie venner mulighed
+                        for at oprette fester og andre begivenheder sammen.
+                    </p>
+                </div>
+                <div class="card-guide">
+                    <div class="img-container blue">
+                        <img src="img/begivenhed.png" alt="Tegning af begivenhed i kalender">
+                    </div>
+                    <h2>Opret begivenheder</h2>
+                    <p>Denne kalender gør det muligt for dig at planlægge din tid, mens du bor på kollegiet. Samtidig
+                        gør du det lettere for de andre at følge med i kommende begivenheder. </p>
+                </div>
+                <div class="card-guide">
+                    <div class="img-container darkblue">
+                        <img src="img/opretdig.png" alt="Tegning af pige med opret og login felt">
+                    </div>
+                    <h2>Login</h2>
+                    <div class="button-login">
+                        <button class=" btn-style btn-login">Login</button>
+                        <button class=" btn-style btn-ny">Opret ny bruger</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!---- Knap til at skifte mellem kortene------->
+            <div class="button-container">
+                <button class="exit" id="exit"><i class="fas fa-times"></i></button>
+                <button class="prev" id="prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="next" id="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
